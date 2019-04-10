@@ -1,0 +1,38 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+#hero {
+  background: url('../images/hero-image.jpg') no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  };
+
+  
+.row{
+  margin: 0  !important
+};
+
+.list-group-item {
+  border:none  !important
+};
+
+$cross: #0076A8;
+
+$theme-colors: (
+  "primary": $cross
+  );
+
+  $link-color: $cross;
+  
+$font-family-base: 'Roboto';
+
+
+.card-img-top {
+  max-width: 50%;
+  align-self: center;
+};
+
+@import "../node_modules/bootstrap/scss/bootstrap";
