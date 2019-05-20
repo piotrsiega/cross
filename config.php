@@ -29,13 +29,6 @@ define ('DB_USER', 'cross');
 define ('DB_PWD', '12345');
 define ('DB_DB', 'cross');
 
-
-//define ('DB_SRV', '21620.m.tld.pl');
-//define ('DB_USER', 'a_new_cross');
-//define ('DB_PWD', '0Lc73*a69Z');
-//define ('DB_DB', 'baza_new_cross');
-
-
 /**
  * Automatyczne ustawienie BASE
  */
